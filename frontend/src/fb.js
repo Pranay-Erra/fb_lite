@@ -17,6 +17,7 @@ const FacebookLite = () => {
     setNewFeed("");
     setEditingIndex(null);
   };
+  
 
   const handleAction = (index, action) => {
     const updatedFeeds = [...feeds];
